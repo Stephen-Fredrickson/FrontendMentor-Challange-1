@@ -1,0 +1,153 @@
+html {
+  background-color: hsl(303, 10%, 53%);
+}
+
+body {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.bold {
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.card {
+  background-image: url(images/bg-pattern-top-desktop.svg),
+    url(images/bg-pattern-bottom-desktop.svg);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-color: hsl(300, 24%, 96%);
+  height: 75%;
+  width: 65%;
+  border-radius: 3px;
+  margin: 200px auto;
+  -webkit-box-shadow: 3px 3px 5px 6px #5f5f5f; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 6px #5f5f5f; /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 5px 6px #5f5f5f; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  justify-items: center;
+  margin: 25px auto;
+}
+
+.heading {
+  display: grid;
+  width: 50%;
+  justify-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.stars {
+  display: grid;
+  width: 75%;
+  align-content: center;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+.star-reviews {
+  margin-right: 50px;
+  background-color: hsl(303, 10%, 53%);
+  color: hsl(300, 43%, 22%);
+  padding: 7px 10px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.star-guru {
+  background-color: hsl(303, 10%, 53%);
+  color: hsl(300, 43%, 22%);
+  padding: 7px 10px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 22.5px;
+  margin-right: 22.5px;
+}
+.star-best-tech {
+  margin-left: 10%;
+  background-color: hsl(303, 10%, 53%);
+  color: hsl(300, 43%, 22%);
+  padding: 7px 10px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.bottom {
+  color: hsl(0, 0%, 100%);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  height: 50%;
+  justify-items: center;
+  margin: auto auto 50px auto;
+  padding: 0 3rem;
+}
+
+.verified-buyer {
+  color: hsl(333, 80%, 67%);
+}
+
+.review-1 {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 5px;
+  height: auto;
+  width: 60%;
+  padding: 10px;
+  align-self: center;
+  margin-bottom: 30px;
+  margin-left: 125px;
+}
+
+.review-2 {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 5px;
+  height: auto;
+  width: 60%;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.review-3 {
+  margin-top: 30px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 5px;
+  height: auto;
+  width: 60%;
+  padding: 10px;
+  margin-right: 125px;
+}
+
+.img-colton {
+  border-radius: 100px;
+  float: left;
+  padding-right: 10px;
+}
+
+.img-irene {
+  border-radius: 100px;
+  float: left;
+  padding-right: 10px;
+}
+
+.img-anne {
+  border-radius: 100px;
+  float: left;
+  padding-right: 10px;
+}
