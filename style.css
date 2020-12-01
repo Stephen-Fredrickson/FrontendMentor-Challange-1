@@ -60,7 +60,7 @@ h1 {
 
 .star-reviews {
   margin-right: 50px;
-  background-color: hsl(303, 10%, 53%);
+  background-color: hsl(306, 32%, 82%);
   color: hsl(300, 43%, 22%);
   padding: 7px 10px;
   border: none;
@@ -68,7 +68,7 @@ h1 {
   text-align: center;
 }
 .star-guru {
-  background-color: hsl(303, 10%, 53%);
+  background-color: hsl(306, 32%, 82%);
   color: hsl(300, 43%, 22%);
   padding: 7px 10px;
   border: none;
@@ -79,7 +79,7 @@ h1 {
 }
 .star-best-tech {
   margin-left: 10%;
-  background-color: hsl(303, 10%, 53%);
+  background-color: hsl(306, 32%, 82%);
   color: hsl(300, 43%, 22%);
   padding: 7px 10px;
   border: none;
